@@ -29,6 +29,7 @@
     "emotion-theming": "^10.0.27",
     "ethers": "^4.0.47",
     "fortmatic": "^2.0.6",
+    "framer-motion": "^2.9.5",
     "graphql": "^14.6.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
@@ -49,7 +50,7 @@
     "extends": "react-app"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts --max_old_space_size=4096 build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"

@@ -29,7 +29,7 @@ export default function Header({web3, address, onConnect}) {
         <Image src="/logo.png" alt="Askobar Logo" display="inline-block" mt="0px" mr={["10px","20px","20px","20px"]} mb={["7px","24px","24px","24px"]} w={["40px","50px","50px","50px"]} h="auto" />
         <Heading as="h1" mt="0px" fontFamily="Roboto" display="inline-block" fontSize={["28px","48px","48px","48px"]} >Asko Staking</Heading>
       </Box>
-      <Text fontSize={{base:"12px", sm:"16px"}} mt="-10px" mb="-10px" textAlign="left" width="100%" color="asko.fgMed">
+      <Text fontSize={{base:"12px", sm:"16px"}} mt="-10px" mb="10px" textAlign="left" width="100%" color="asko.fgMed">
         v1.0.2b
       </Text>
     </Box>
